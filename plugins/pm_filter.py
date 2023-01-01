@@ -76,6 +76,8 @@ async def next_page(bot, query):
     else:
         btn = [
             [
+                InlineKeyboardButton(text="⚡ How To Download ⚡", url='https://t.me/MvMKnowHow/5'),
+                
                 InlineKeyboardButton(
                     text=f"{file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
