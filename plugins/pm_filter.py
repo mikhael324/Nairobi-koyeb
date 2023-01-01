@@ -654,6 +654,8 @@ async def auto_filter(client, msg, spoll=False):
     if settings["button"]:
         btn = [
             [
+                InlineKeyboardButton(text="⚡ How To Download ⚡", url='https://t.me/MvMKnowHow/5'),
+                
                 InlineKeyboardButton(
                     text=f"📂[{get_size(file.file_size)}]👉{file.file_name}",
                     url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
