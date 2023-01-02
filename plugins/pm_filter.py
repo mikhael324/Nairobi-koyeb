@@ -73,6 +73,15 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
+        btn.insert(0,
+
+        [
+
+            InlineKeyboardButton(text="⚡ How To Download ⚡", url='https://t.me/MvMKnowHow/5')
+
+        ]
+
+    ) 
     else:
         btn = [
             [
@@ -661,6 +670,15 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files 
         ]
+        btn.insert(0,
+
+        [
+
+            InlineKeyboardButton(text="⚡ How To Download ⚡", url='https://t.me/MvMKnowHow/5')
+
+        ]
+
+    ) 
     else:
         btn = [
             [
