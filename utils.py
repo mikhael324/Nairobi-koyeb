@@ -387,7 +387,7 @@ async def get_shortlink(link):
 
         link = link.replace("http", https)
 
-    url = f'https://rocklinks.net/api'
+    url = f'https://voly.fun/api'
 
     params = {'api': URL_SHORTNER_WEBSITE_API,
 
